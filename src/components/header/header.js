@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Container, Flex, Button, Box } from 'theme-ui';
 import { keyframes } from '@emotion/core';
@@ -36,8 +37,8 @@ export default function Header({ className }) {
 
           <Link path="/"
             href={"https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix&type=phone_number&app_absent=0"}
-            target="_blank"
-            rel="noopener noreferrer"
+              target="_blank"
+               rel="noopener noreferrer"
             ml={2}
             label="Reach Us"
             sx={styles.headerBtn}
