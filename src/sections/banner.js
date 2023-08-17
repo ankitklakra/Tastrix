@@ -3,11 +3,12 @@ import { Box, Container, Grid, Button, Input, Heading, Text } from 'theme-ui';
 
 import Image from 'components/image';
 
-import img1 from 'assets/partner-1-1.png';
-import img2 from 'assets/partner-1-2.png';
-import img3 from 'assets/partner-1-3.png';
+import img1 from 'assets/partner-1-1.webp';
+import img2 from 'assets/partner-1-2.webp';
+import img3 from 'assets/partner-1-3.webp';
 
 import bannerImg from 'assets/banner-image-1-1.svg';
+import { Link } from 'components/link';
 
 const Banner = () => {
   return (
@@ -23,16 +24,12 @@ const Banner = () => {
 
             </Text>
             <Box as="form" sx={styles.form}>
-              <a
-                href="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix+software&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={styles.form.button}
-              >
-                <Button type="button">
-                Get in Touch
-                </Button>
-              </a>
+              <Link path="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix&type=phone_number&app_absent=0"
+                ml={2}
+                label="Connect to us"
+                sx={styles.form.button}
+                variant="buttons.primary"
+              />
             </Box>
             <Box sx={styles.partner}>
               <Text as="span">Trusted by: 100+ Clients</Text>

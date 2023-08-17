@@ -5,9 +5,9 @@ import Swiper from 'react-id-swiper';
 
 import FeatureCard from 'components/feature-card';
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
-import featureImage1 from 'assets/tutorial-1-1.png';
-import featureImage2 from 'assets/tutorial-1-2.png';
-import featureImage3 from 'assets/tutorial-1-3.png';
+import featureImage1 from 'assets/tutorial-1-1.webp';
+import featureImage2 from 'assets/tutorial-1-2.webp';
+import featureImage3 from 'assets/tutorial-1-3.webp';
 
 const FeatureData = [
   {

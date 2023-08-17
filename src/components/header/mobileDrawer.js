@@ -74,22 +74,12 @@ const MobileDrawer = () => {
           </Box>
 
           <Box sx={styles.menuFooter}>
-
-            {/* <Button variant="primary" sx={styles.button}>
-              Reach us
-            </Button> */}
-
-            <a
-                href="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix+software&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={styles.button}
-              >
-                <Button variant="primary"  type="button">
-                Reach us
-                </Button>
-              </a>
-
+            <Link path="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix&type=phone_number&app_absent=0"
+              ml={2}
+              label="Reach Us"
+              sx={styles.button}
+              variant="buttons.primary"
+            />
           </Box>
         </Box>
       </Scrollbars>

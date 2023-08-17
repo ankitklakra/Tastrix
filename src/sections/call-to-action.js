@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container, Heading, Button } from 'theme-ui';
 import BgShape from 'assets/cta-shape-1.svg';
 import btnShape from 'assets/cta-btn-shape-1.svg';
+import { Link } from 'components/link';
 const CallToAction = () => {
   return (
     <Box sx={styles.wrapper} id="cta">
@@ -13,15 +14,12 @@ const CallToAction = () => {
             Plus, Ensure Success with Annual Updates at Only<i> 2479 </i>rs.
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <a
-              href="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix+software&type=phone_number&app_absent=0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button sx={styles.btn}>
-                Get in Touch
-              </Button>
-            </a>
+            <Link path="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix&type=phone_number&app_absent=0"
+            ml={2}
+            label="Buy Now"
+            sx={styles.btn}
+            variant="buttons.primary"
+          />
           </Box>
         </Box>
       </Container>

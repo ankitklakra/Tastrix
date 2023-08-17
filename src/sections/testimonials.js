@@ -5,9 +5,9 @@ import { Box, Container, Text, Heading } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 
-import img1 from 'assets/testi-1-1.jpg';
-import img2 from 'assets/testi-1-2.jpg';
-import img3 from 'assets/testi-1-3.png';
+import img1 from 'assets/testi-1-1.webp';
+import img2 from 'assets/testi-1-2.webp';
+import img3 from 'assets/testi-1-3.webp';
 
 SwiperCore.use([Thumbs, Autoplay]);
 

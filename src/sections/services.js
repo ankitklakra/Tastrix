@@ -3,10 +3,10 @@ import { Box, Container, Grid, Heading, Text } from 'theme-ui';
 import BlockTitle from 'components/block-title';
 import Image from 'components/image';
 
-import icon1 from 'assets/icons/service-1-1.png';
-import icon2 from 'assets/icons/service-1-2.png';
-import icon3 from 'assets/icons/service-1-3.png';
-import icon4 from 'assets/icons/service-1-4.png';
+import icon1 from 'assets/icons/service-1-1.webp';
+import icon2 from 'assets/icons/service-1-2.webp';
+import icon3 from 'assets/icons/service-1-3.webp';
+import icon4 from 'assets/icons/service-1-4.webp';
 
 const SERVICES_DATA = [
   {

@@ -35,18 +35,12 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Link path="/"
-            href={"https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix&type=phone_number&app_absent=0"}
-              target="_blank"
-               rel="noopener noreferrer"
+          <Link path="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+buy+Tastrix&type=phone_number&app_absent=0"
             ml={2}
             label="Reach Us"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />
-
-
-
           <MobileDrawer />
         </Container>
       </header>

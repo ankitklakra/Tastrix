@@ -23,11 +23,8 @@ const CustomerSupport = () => {
               <Text as="p" sx={styles.specialText}>
               With our commitment to providing free, reliable support, you can focus on what matters most – running your restaurant with confidence.
               </Text>
-              <Link path="/"
-               sx={styles.link}
-               href="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+know+more+about+Tastrix+software&type=phone_number&app_absent=0"
-               target="_blank"
-               rel="noopener noreferrer">
+              <Link path="https://api.whatsapp.com/send/?phone=918269415993&text=Hello+I+want+to+know+more+about+Tastrix+software&type=phone_number&app_absent=0"
+               sx={styles.link}>
                 Chat now <FaAngleRight />
               </Link>
             </Box>
