@@ -5,7 +5,9 @@ import { Link } from 'components/link';
 
 import CommentIcon from 'assets/comment-1.svg';
 
+
 const FeatureCard = (props) => {
+
   return (
     <Box sx={styles.fevCard}>
       <Box className="image" sx={styles.image}>
@@ -13,13 +15,14 @@ const FeatureCard = (props) => {
       </Box>
       <Box sx={styles.content}>
         <Heading as="h3">
-          <Link path={props.path}>{props.title}</Link>
+          <Text >{props.title}</Text>
         </Heading>
-        <Text as="p">
+        {/* <Text as="p">
           <Image src={CommentIcon} alt="" />
           {props.commentCount}
-        </Text>
+        </Text> */}
       </Box>
+     
     </Box>
   );
 };

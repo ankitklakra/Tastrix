@@ -5,33 +5,46 @@ import Swiper from 'react-id-swiper';
 
 import FeatureCard from 'components/feature-card';
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
-import featureImage1 from 'assets/tutorial-1-1.webp';
-import featureImage2 from 'assets/tutorial-1-2.webp';
-import featureImage3 from 'assets/tutorial-1-3.webp';
-
+import featureImage1 from 'assets/1.webp';
+import featureImage2 from 'assets/2.webp';
+import featureImage3 from 'assets/3.webp';
+import featureImage4 from 'assets/4.webp';
+import featureImage5 from 'assets/5.webp';
 const FeatureData = [
   {
     image: featureImage1,
-    title: 'How to work with prototype design with adobe xd featuring tools',
+    title: 'Login',
     comments: '22 Comments',
     path: '/',
   },
   {
     image: featureImage2,
-    title: 'Create multiple artboard by using figma prototyping development',
+    title: 'Dashboard',
     comments: '15 Comments',
     path: '/',
   },
   {
     image: featureImage3,
-    title:
-      'Convert your web layout theming easily with sketch zeplin extension',
+    title:'Add new dish',
+    comments: '12 Comments',
+    path: '/',
+  },
+  {
+    image: featureImage4,
+    title: 'Add new table ',
+    comments: '15 Comments',
+    path: '/',
+  },
+  {
+    image: featureImage5,
+    title:'Customers Register',
     comments: '12 Comments',
     path: '/',
   },
 ];
 
 const Feature = () => {
+ 
   const ref = useRef(null);
   const goNext = () => {
     if (ref.current !== null && ref.current.swiper !== null) {
@@ -45,8 +58,8 @@ const Feature = () => {
     }
   };
   const params = {
-    slidesPerView: 3,
-    slidesPerGroup: 3,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
     spaceBetween: 30,
     breakpoints: {
       0: {
@@ -65,28 +78,28 @@ const Feature = () => {
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 30,
       },
       992: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 30,
       },
       1200: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 1,
+        slidesPerGroup:1,
         spaceBetween: 30,
       },
     },
   };
   return (
-    <Box sx={styles.features} id="news">
+    <Box sx={styles.features} id="productimg">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Tutorials that people love most"
+          // slogan="Quality features"
+          title="Tastrix: Visual Product Showcase"
           styles={styles.blockTitle}
         />
 
@@ -127,11 +140,11 @@ const styles = {
     backgroundColor: '#F8FAFC',
     '.swiper-slider': {
       overflowY: 'visible',
-      overflowX: 'hidden',
+      overflowX: 'visible',
     },
   },
   carouselBtns: {
-    display: ['flex', null, null, null, null, 'none'],
+    display: ['flex', null, null, null, null, 'flex'],
     justifyContent: 'center',
     alignItems: 'center',
     button: {

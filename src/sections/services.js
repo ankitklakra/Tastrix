@@ -41,7 +41,7 @@ const Services = () => {
       <Container>
         <BlockTitle
           slogan="Quality features"
-          title="Meet exciting feature of Tastrix"
+          title="Meet exciting features of Tastrix"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>

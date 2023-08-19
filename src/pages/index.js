@@ -23,10 +23,10 @@ export default function IndexPage() {
           <Banner />
           <Services />
           <BoostAgencies />
-          <VideoOne />
+          <Feature />
+          {/* <VideoOne /> */}
           <Testimonials />
           <CustomerSupport />
-          {/* <Feature /> */}
           <CallToAction />
         </Layout>
       </StickyProvider>
