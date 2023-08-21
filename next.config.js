@@ -7,7 +7,6 @@ const nextConfiguration = {
     formats: ['image/webp'],
     disableStaticImages: true,
     },
-
 };
 
 module.exports = withPlugins([optimizedImages], nextConfiguration);
